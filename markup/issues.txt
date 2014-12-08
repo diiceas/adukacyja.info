@@ -1,0 +1,9 @@
+﻿Issue #1 - Steps:
+
+1 - Open Chrome browser
+2 - Open 09_pranas.html page in a mobile mode: http://i.imgur.com/zzzqDWw.png
+3 - Open up the menu: http://i.imgur.com/IklCyO0.png
+4 - Maximize the window
+5 - The markup of the header looks wrong: http://i.imgur.com/zbyotLH.png
+
+---------------------------------------------------------------------------------
