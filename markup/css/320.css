@@ -1,0 +1,505 @@
+@media (max-width: 479px) {
+
+.container {
+width: 320px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.navbar .container {
+padding: 0px;
+}
+.navbar-default.en,
+.navbar-default.en .brand {
+	height: 40px;
+}
+.navbar-default.en .brand {
+	padding-top: 0px;
+}
+.navbar-default .brand {
+width: 62px;
+height: 40px;
+padding-top: 0;
+margin-left: 0px;
+}
+.navbar-default .brand .navbar-brand {
+width: 62px;
+height: 40px;
+text-align: center;
+padding-top: 5px;
+}
+
+.navbar-default .brand .navbar-brand:hover {
+background-color: #F07E14;
+}
+.navbar-default .brand .navbar-brand:active {
+background-color: #ED6E10;
+}
+.navbar-default .brand .navbar-brand i {
+width: 20px;
+height: 27px;
+}
+.navbar-default .navbar-sl {
+margin-left: 52px;
+padding: 0;
+}
+.navbar-default .navbar-sl ul {
+margin: 0;
+border-left: solid 1px #FACB9F;
+}
+.navbar-default .navbar-sl li a {
+width: 42px;
+height: 40px;
+padding: 5px;
+}
+.navbar-default .navbar-sl li a:hover {
+background-color: #F07E14;
+}
+.navbar-default .navbar-sl li a:active {
+background-color: #ED6E10;
+}
+.navbar-default .navbar-sl li + li {
+margin-left: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+font-size: 12px;
+padding-top: 18px;
+padding-bottom: 10px;
+}
+.navbar-default .navbar-nav > li + li {
+margin-left: 40px;
+}
+.navbar-default .eng {
+border-left: solid 1px #FACB9F;
+border-right: solid 1px #FACB9F;
+}
+.navbar-default .eng:hover {
+border-color: transparent;
+}
+.navbar-default .eng a {
+padding: 10px 12px 8px 12px;
+}
+.navbar-default .eng a span {
+display: none;
+}
+.navbar-toggle {
+padding: 9px 10px 9px 10px;
+margin-right: 0px;
+}
+.navbar-default .icon.logo,
+.navbar-default.navbar-sticky .icon.logo {
+background-position: -415px -11px;
+}
+.news .item > .title {
+margin-bottom: 7px;
+}
+.news .item > .title a {
+font-size: 16px;
+line-height: 18px;
+}
+.news .item > .info, .similar .sitem > .info {
+margin: 0 0 14px 0;
+}
+.news .item > .info li,
+.similar .sitem > .info li {
+font-size: 9px;
+}
+.news .item .photo {
+width: 250px;
+height: 250px;
+}
+.news .item .photo a, 
+.similar .sitem .photo a {
+width: 250px;
+height: 250px; 
+}
+.news .item .photo img {
+width: 250px;
+height: 250px;  
+}
+.news .item .descr-list {
+margin-left: 250px;
+padding: 0 0 0 20px;
+}
+.news .item .descr-list li {
+height: 17px;
+}
+.news .item .descr-list li span {
+display: none;
+}
+.news .item .descr-list li + li {
+margin-top: 29px;
+}
+.news-index .item p {
+display: none;
+}
+.more-item button {
+width: 100%;
+}
+.more-item {
+padding: 23px 0 23px 0;
+}
+.deadline .title span {
+padding: 10px 0 0 10px;
+}
+.deadline .item {
+padding: 10px;
+}
+.deadline .item > a {
+font-size: 14px;
+} 
+.search-padding {
+padding: 10px;
+}
+.search {
+margin: 23px 0 0 0;
+}
+.search .btn-brown {
+margin-top: 10px;
+}
+.btn-search {
+top: 20px;
+right: 20px;
+}
+.search label.checkbox-inline {
+width: 85px;
+}
+.search .divider {
+padding: 0px 10px 12px 10px;
+}
+.search .divider + .divider {
+margin-top: 12px;
+}
+.search .divider + .search-padding {
+padding: 0px 10px 10px 10px;
+}
+.banner {
+margin: 23px 0 0 0;
+}
+.banner a,
+.banner img {
+width: 150px;
+height: 150px;
+}
+.programms {
+margin-top: 23px;
+}
+.programms a {
+width: 100%;
+height: 305px;
+}
+.programms a .title {
+margin: 11px 0 6px 0;
+}
+.programms a .info {
+padding: 12px 14px;
+font-size: 11px;
+}
+.new-in-blog {
+margin-top: 23px;
+}
+.new-in-blog .title {
+font-size: 16px;
+height: 40px;
+}
+.new-in-blog .title a {
+font-size: 20px;
+padding: 8px 14px 4px 35px;
+}
+.new-in-blog .title span {
+padding: 10px 0 0 15px;
+}
+.new-in-blog .title a i {
+top: 13px;
+}
+.new-in-blog .info li,
+.new-in-blog .info li + li,
+.new-in-blog .info li + li span {
+font-size: 9px;
+}
+.new-in-blog .info {
+margin: 12px 0 6px 0;
+}
+.new-in-blog > a {
+font-size: 12px;
+}
+.new-in-blog .theme {
+margin: 10px 0 14px 0;
+}
+.subscribe {
+margin-top: 23px;
+}
+.subscribe > div {
+padding: 5px 10px 10px;
+}
+.subscribe > div + div {
+padding: 10px;
+}
+.subscribe .form-group {
+margin-bottom: 13px;
+}
+.subscribe a {
+margin-top: 12px;
+}
+.contrl label {
+margin-bottom: 6px;
+}
+.socialw .tab-content {
+padding: 14px 9px;
+}
+.up-arrow {
+right: 10px;
+}
+.footer {
+padding: 35px 0 40px 0;
+}
+.footer .center {
+margin: 0;
+}
+.footer .left {
+width: 100%;
+text-align: center;
+}
+.footer .right {
+width: 100%;
+text-align: center;
+}
+.filin {
+display: none;
+}
+/*.footer > .container {
+min-height: 490px;
+}*/
+/*.footer-nav {
+text-align: center;
+}
+.footer-nav .dropdown-menu {
+text-align: center;
+padding-bottom: 10px;
+}
+.nav.footer-nav > li > a {
+padding: 10px 0 8px 0;
+}
+.nav.footer-nav > li > a:hover {
+background-color: #E3D9CA;
+color: #372727;
+}
+.nav.footer-nav > li + li {
+border-top: solid 1px #E3D9CA;
+}*/
+.footer .right a {
+display: block;
+}
+.footer-nav {
+display: none;
+}
+.text > .item p, 
+.text > .item li,
+.fullpage p {
+	font-size: 12px;
+}
+.text > .item h2 {
+	font-size: 16px;
+}
+.similar .sitem {
+	float: none;
+	width: 300px;
+	height: auto;
+}
+.similar .sitem + .sitem {
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.similar .sitem .photo {
+	width: 300px;
+	height: 300px;
+}
+.similar .sitem .photo img {
+	width: 300px;
+	height: 300px;
+}
+.similar .sitem > .descr-list {
+	position: static;
+	margin: 0 0 30px 0;
+}
+.similar .dividr {
+	float: none;
+	height: 30px;
+	width: 100%;
+}
+#table .item > .photo a, .similar .sitem .photo a {
+	width: 300px;
+	height: 300px;
+}
+.text > .item .descr-list.horizontal li {
+	width: 100%;
+	float: none;
+}
+.text > .item .descr-list.horizontal li span {
+	display: block;
+}
+.text > .item .photoslider ul li img {
+	width: 100%;
+}
+
+.photoslider {
+  width: 100%;
+}
+.text h1, .flat h1, .blog h1 {
+	font-size: 18px;
+}
+
+.modal-layout {
+	padding: 0;
+}
+.flat .item {
+	width: 300px;
+}
+.flat .item:nth-child(even) {
+	margin-left: 0px!important;
+}
+.flat .item:nth-child(3n+2) {
+	margin-right: 0;
+	margin-left: 0;
+}
+.flat .item .photo,
+.flat .item .photo a,
+.flat .item .photo img {
+	width: 300px;
+	height: 300px;
+}
+.flat .dividr {
+	display: none;
+}
+.captcha input {
+	width: 120px;
+}
+.captcha img {
+	margin-left: 5px;
+}
+.faq-select .btn {
+margin-top: 14px;
+float: none;
+width: 100%;
+}
+.faq-select .form-group {
+	width: 100%;
+}
+.contrl select.form-control {
+	width: 100%;
+}
+.text > .item ul.faq li a, 
+.text > .item ul.faq li a:focus {
+	font-size: 14px;
+}
+.text > .item ul.faq li {
+	background: url(../img/faq-list-marker.png) left 0px no-repeat;
+}
+.text > .item ul.faq li.active {
+  background-position: left -241px;
+}
+.text > .item ul.faq li.hover {
+  background-position: left -81px;
+}
+.text > .item ul.faq li.click {
+  background-position: left -162px;
+}
+.text > .item ul.faq li.active.hover {
+  background-position: left -328px;
+}
+.text > .item ul.faq li.active.click {
+  background-position: left -328px;
+}
+#btn-send-profile.btn-migrate {
+	position: absolute;
+	width: 100%;
+	top: 88px!important;
+	right: 0!important;
+}
+#btn-send-profile {
+position: relative;
+top: -15px;
+left: 0px;
+width: 100%;
+}
+.add-comment-link {
+	top: 6px;
+}
+.add-comment-link a {
+	font-size: 12px;
+}
+
+.comments-bl .title,
+.comments-form .title {
+	font-size: 20px;
+}
+
+.team-slide-1 {
+  width: 300px;
+  height: 144px;
+  background: url(../data/team-slider-1-320.jpg) 0 0 no-repeat;
+  background-size: contain;
+}
+.teamslider {
+	height: 144px;
+}
+
+.team-bl ul li {
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+}
+.team-bl ul li span {
+	left: 0px;
+}
+.team-bl ul li a {
+	width: 90px;
+	height: 90px;
+	border: solid 5px #fff;
+}
+.team-bl ul li img {
+	width: 80px;
+	height: 80px;
+}
+.team-bl ul li a:hover, .team-bl ul li a:active {
+	border: solid 5px #F79840;
+}
+.teamphotoslider ul li img {
+	width: 100px;
+	height: 100px;
+}
+.teamphotoslider .lSAction > a {
+  top: 50px;
+}
+.partners ul li {
+	width: 100%;
+}
+.partners ul li > a {
+	width: 100%;
+}
+
+.gallerys .sitem {
+  width: 140px;
+  height: 200px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.gallerys .sitem:nth-child(5n) {
+  margin-right: 15px;
+}
+.gallerys .sitem:nth-child(3n) {
+  margin-right: 15px;
+}
+.gallerys .sitem:nth-child(2n) {
+	margin-right: 0;
+}
+.gallerys .sitem .photo,
+.gallerys .sitem .photo a,
+.gallerys .sitem .photo img {
+  width: 140px;
+  height: 140px;
+}
+.photogallery .lSAction > a {
+  top: 100px;
+}
+
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>03_Pragramy_b</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./js/default.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/scrollbar.js"></script>
+	<script type="text/javascript" src="./js/jquery.lightSlider.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var slider = $('#lightSlider').lightSlider({
+			gallery: true,
+			item: 1,
+			loop: true,
+			thumbMargin: 0
+		});
+		$(window).resize(function(){
+
+		});
+	});	
+	</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<nav class="navbar navbar-default" role="navigation" id="stickynav">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+							<span class="sr-only show-480">Меню</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="brand">
+							<a class="navbar-brand" href="#"><i class="icon logo"></i></a>
+							<div class="divider"></div>
+						</div>
+						<div class="navbar-sl">
+							<ul>
+								<li><a href=""><i class="icon fb"></i><span>Facebook</span></a></li>
+								<li><a href=""><i class="icon tw"></i><span>Twitter</span></a></li>
+								<li><a href=""><i class="icon vk"></i><span>Вконтакте</span></a></li>
+								<li><a href=""><i class="icon yt"></i><span>YouTube</span></a></li>
+							</ul>
+							<div class="eng">
+								<a href="">En<span>glish</span></a>
+							</div>
+						</div>
+						<div class="collapse navbar-collapse navbar-menu" id="navbar">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">НАВIНЫ</a></li>
+								<li><a href="#">ПРАГРАМЫ</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">АСАБIСТЫ ДОСВЕД <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Выпускнiкi</a></li>
+										<li><a href="#">Эксперты</a></li>
+										<li><a href="#">Блог</a></li>
+									</ul>
+								</li>
+								<li><a href="#">ЗАМЕЖНЫЯ МОВЫ</a></li>
+								<li><a href="#">ПРАЦА</a></li>
+								<li><a href="#">ПАРАДЫ</a></li>
+								<li><a href="#">ПРА НАС</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr class="navbar-hr">
+			</nav>
+		</div>
+		<div id="content">
+			<div class="container">
+				<div class="index news text">
+					<div class="item">
+						<div class="title">
+							<h1>Нямеччына</h1>
+						</div>
+						<div class="programm-select-link">
+							<a href="javascript:void(0);" id="programm-select-a"><span class="icon map-pointer"></span> Выбраць іншую краіну</a>
+						</div>
+
+						<div class="fullpage" id="fullmap">
+							<div class="country-bl">
+								<div class="country-blc contrl">
+									<strong>Абярыце краiну</strong>
+									<select class="form-control" id="country-select">
+										<option value="0">Абярыце краiну</option>
+										<option value="germany">Нямеччына</option>
+										<option value="sweden">Швецыя</option>
+									</select>
+								</div>
+							</div>
+							<div class="modal-layout modal-country" id="modal-country">
+								<div>
+									<div class="modal-layout-header">Швецыя <a href="" class="inform"><span class="icon information"></span></a> <a href="javascript:void(0);" class="close-modal-link"><span class="icon close-modal" id="modal-country-close"></span></a></div>
+									<div class="modal-layout-body">
+										<div class="scrollbar-rail">
+											<p class="permanent"><strong>Королевство Швеция</strong> (швед. Konungariket Sverige (инф.)), <strong>Швеция</strong> (швед. Sverige) — государство в Северной Европе на Скандинавском полуострове. Форма правления — Конституционная монархия. Столица — Стокгольм.</p>
+											<p>Для любого человека, работающего за компьютером, рано или поздно встаёт вопрос воздействия рабочей обстановки на здоровье. Выработаны рекомендации по осанке, организации рабочего пространства, отдыха. Разработаны упражнения для туловища, шеи, конечностей и, конечно, глаз. Наверняка каждый, кто долго работает за компьютером, однажды почувствовал боль где-нибудь, многие начали искать пути уменьшения вредного воздействия, кто-то серьёзно начал вникать в связанные с этим вопросы. К сожалению, часто ограничиваются поиском и покупкой дорогого кресла «с наворотами», и этим дело заканчивается.  Я решил идти дальше. Так как работаю программистом и значительную часть работы выполняю дома — для себя создал два рабочих места, на втором их которых работаю до сих пор. Далее опишу их с подробностями и сделанными выводами. Полагаю, интересно будет людям, которые работают удалённо или фрилансерам.Тонус мышц туловища большинства людей таков, что сохранение правильной осанки сидя требует напряжения этих мышц.</p>
+											<a href="" class="xs-visible">Даведацца больш</a>
+										</div>
+										<div class="name">Адукацыйныя праграмы Швецыi</div>
+									</div>
+									<div class="programms-list">
+										<ul>
+											<li>
+												<a href="">1. Стыпендыяльная праграма ўраду Рэспублікі Польшча для маладых навукоўцаў</a>
+												<ul class="descr-list clearfix">
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-1"><i class="icon i1"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-2"><i class="icon i2"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-3"><i class="icon i3"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-4"><i class="icon i4"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-5"><i class="icon i5"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-6"><i class="icon i6"></i></a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="">2. Моладзевы адукацыйны праект BIGIN</a>
+												<ul class="descr-list clearfix">
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-1"><i class="icon i1"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-2"><i class="icon i2"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-3"><i class="icon i3"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-4"><i class="icon i4"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-5"><i class="icon i5"></i></a></li>
+													<li><a href="javascript:void(0);" data-toggle="popover" class="popover-6"><i class="icon i6"></i></a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+						<p>Вышэйшая адукацыя ў Германіі мае доўгую гісторыю. Найстарэйшы ўніверсітэт заснаваны ў 1386 г. у Гайдэльбергу. Галоўная асаблівасць нямецкай адукацыі: яна нецэнтралізаваная. Гэта значыць, няма адной установы, якая кіравала б адукацыйным працэсам усёй краіны. Адукацыйных сістэм столькі, колькі і федэратыўных зямель – 16. Адрозненні некатастрафічныя, але істотныя. Дзякуючы такой сістэме, у ВНУ Германіі безліч аўтарскіх праграм навучання, разнастайных стажыровак і курсаў. Таму калі “што-якое”, даведвацца ці спраўджваць інфу трэба “на месцы”.</p>
+						<div class="photoslider">
+ 							<ul id="lightSlider">
+								<li data-thumb="./data/slider/thumb/1.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/2.jpg">
+									<img src="./data/slider/2.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/3.jpg">
+									<img src="./data/slider/3.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/4.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/5.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/6.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/7.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/8.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/9.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/10.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/11.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+								<li data-thumb="./data/slider/thumb/5.jpg">
+									<img src="./data/slider/1.jpg" />
+								</li>
+							</ul>
+ 						</div>
+ 						<p>Яшчэ адна асаблівасць, якая ёсць і галоўным прынцыпам нямецкай адукацыі – “акадэмічная свабода”. Традыцыйна студэнты досыць вольныя ў арганізацыі свайго навучання. На многіх курсах яны самастойна абіраюць пэўныя прадметы і лекцыі.</p>
+ 						<p>Па шмат якіх прадметах навучанне падзяляецца на пачатковы этап (вывучэнне асноваў навукі) і асноўны этап навучання. Пачатковы этап звычайна завяршаецца прамежкавым іспытам. Па заканчэнні навучання студэнты здаюць у залежнасці ад спецыяльнасці іспыт на атрыманне дыплому ці ступені магістра, дзяржаўны іспыт (перадусім па медыцыне і правазнаўству) ці царкоўны іспыт па тэалягічных спецыяльнасцях.</p>
+ 						<h2>Умовы ўдзелу ў конкурсе наступныя:</h2>
+ 						<ul>
+ 							<li>“Гасцявая” вучоба. Гэта звычайнае навучанне (ці давучванне, каб паскорыць працэс пераходу на новую ступень) цягам году з вялікай верагоднасцю атрымаць стыпендыю. У выніку – ступень бакалаўра.</li>
+ 							<li>Поўнае навучанне, дзе хутчэй за ўсё бабак не дадуць. У выніку – нямецкі ці ўвогуле міжнародны дыплом.</li>
+ 							<li>Магістарскае ці доктарскае навучанне, якія па-рознаму заахвочваюцца і могуць працягвацца пэўны час.</li>
+ 						</ul>
+ 						<h2>Іспыты і іншыя ўмовы</h2>
+ 						<p>Пры паступленні замежныя студэнты павінныя здаць іспыт па нямецкай мове (DSH або любы эквівалент, ZDP, напрыклад). Іспыт можна здаць у мінскім Гётэ-інстытуце. Некаторым навучальным установам дастаткова пацверджання, што ты вывучаў нямецкую мову ў тваім універсітэце (каля 600 гадзін) – але гэта рэдкасць.</p>
+ 						<p>Яшчэ адна асаблівасць: студэнт-замежнік можа паступіць толькі на тую спецыяльнасць, на якой навучаецца на радзіме. Завочніку неабходна адвучыцца ажно 4 курсы ў Беларусі, каб быць залічаным у ВНУ Германіі. Выпускнікі ж могуць скараціць два гады навучання, калі частка дысцыплінаў залічыцца.</p>
+					</div>
+					<div class="share-btn-bl">
+						<img src="./data/share-btn.png" alt="" />
+					</div>
+					<div class="back-to-bl">
+						<hr>
+						<a href=""><span class="icon">Да мапы праграм</span></a>
+					</div>
+					<div class="similar clearfix similar-list">
+						<div class="title">Праграмы у Нямеччыне</div>
+						<ul>
+							<li><a href="">Стыпендыі па эканоміцы ў Нямеччыне</a></li>
+							<li><a href="">Стыпендыя на навучанне ва ўніверсітэце Хохенхайма</a></li>
+							<li><a href="">Стыпэндыяльная праграма ГФПС (GFPS) (Нямеччына)</a></li>
+							<li><a href="">Стыпендыяльная праграма “COPERNICUS” (Нямеччына)</a></li>
+							<li><a href="">DAAD (Нямеччына)</a></li>
+						</ul>
+					</div>
+					<div class="similar clearfix">
+						<div class="title">Артыкулы аб Нямеччыне</div>
+						<div class="sitem clearfix">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-18.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 520</div>
+								</div>
+							</div>
+							<div class="title">
+								<a href="#">Сустрэча выпускнікоў ВНУ Швецыі ў Менску</a>
+							</div>
+							<ul class="info">
+								<li>16 ліпеня 2014</li>
+								<li><a href="">Праекты</a></li>
+							</ul>
+							<ul class="descr-list">
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-1"><i class="icon i1"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-2"><i class="icon i2"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-3"><i class="icon i3"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-4"><i class="icon i4"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-5"><i class="icon i5"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-6"><i class="icon i6"></i></a></li>
+							</ul>
+						</div>
+						<div class="sitem clearfix">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-19.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 80</div>
+								</div>
+							</div>
+							<div class="title">
+								<a href="#">Лакальны камітэт AIESEC запрашае ў арганізацыю</a>
+							</div>
+							<ul class="info">
+								<li>04 cакавіка 2014</li>
+								<li><a href="">Праца</a></li>
+							</ul>
+							<ul class="descr-list">
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-1"><i class="icon i1"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-2"><i class="icon i2"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-3"><i class="icon i3"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-4"><i class="icon i4"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-5"><i class="icon i5"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-6"><i class="icon i6"></i></a></li>
+							</ul>
+						</div>
+						<div class="sitem clearfix">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-20.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 89</div>
+								</div>
+							</div>
+							<div class="title">
+								<a href="#">Інфарматыка па-беларуску</a>
+							</div>
+							<ul class="info">
+								<li>17 ліпеня 2014</li>
+								<li><a href="">Праекты</a></li>
+							</ul>
+							<ul class="descr-list">
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-1"><i class="icon i1"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-2"><i class="icon i2"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-3"><i class="icon i3"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-4"><i class="icon i4"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-5"><i class="icon i5"></i></a></li>
+								<li><a href="javascript:void(0);" data-toggle="popover" class="popover-6"><i class="icon i6"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="similar clearfix adosved">
+						<div class="title">Асабiсты досвед</div>
+						<div class="sitem">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-21.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 586</div>
+									<div class="iphot"><i class="icon cam"></i> 16</div>
+								</div>
+							</div>
+							<div class="title"><a href="">Для тых, хто яшчэ на згубіў намер паказаць клас</a></div>
+							<div class="name">Кацярына Шмацiна</div>
+						</div>
+						<div class="sitem">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-22.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 1240</div>
+									<div class="iphot"><i class="icon cam"></i> 5</div>
+								</div>
+							</div>
+							<div class="title"><a href="">Навучанне ў WSNHiD у Познані</a></div>
+							<div class="name">Аляксандра Балашова</div>
+						</div>
+						<div class="sitem">
+							<div class="photo">
+								<a href=""></a>
+								<img src="./data/pic-23.jpg" alt="" />
+								<div>
+									<div class="count"><i class="icon eye"></i> 380</div>
+									<div class="iphot"><i class="icon cam"></i> 24</div>
+								</div>
+							</div>
+							<div class="title"><a href="">5 самых хуткіх спосабаў вывучыць замежную мову</a></div>
+							<div class="name">Аляксандра Балашова</div>
+						</div>	
+					</div>
+				</div>
+				<div class="sidebar">
+					<div class="deadline">
+						<div class="title">
+							<span>Хутка дэдлайн</span>
+							<a href="#"><i class="icon clock2"></i>18</a>
+						</div>
+						<div class="item">
+							<a href="#">Валанцёрства ў Латвіі</a>
+							<ul>
+								<li>25 лютага 2014</li>
+								<li><a href="#">Стыпендыi</a></li>
+								<li class="views"><i class="icon eye-sm"></i> 586</li>
+							</ul>
+						</div>
+						<div class="item">
+							<a href="#">Трэнінгі па развіцці турыстычнага бізнэсу</a>
+							<ul>
+								<li>9 сакавiка 2014</li>
+								<li><a href="#">Трэнiнгi</a></li>
+								<li class="views"><i class="icon eye-sm"></i> 920</li>
+							</ul>
+						</div>
+						<div class="item">
+							<a href="#">Правы Чалавека, якім не вучаць ва ўніверсітэтах</a>
+							<ul>
+								<li>12 сакавiка 2014</li>
+								<li><a href="#">Гранты</a></li>
+								<li class="views"><i class="icon eye-sm"></i> 1050</li>
+							</ul>
+						</div>
+						<div class="item">
+							<a href="#">Практычная відэажурналістыка для НДА</a>
+							<ul>
+								<li>9 красавiка 2014</li>
+								<li><a href="#">Стыпендыi</a></li>
+								<li class="views"><i class="icon eye-sm"></i> 609</li>
+							</ul>
+						</div>
+						<div class="item">
+							<a href="#">Адукацыйны праект "Карані і вершаліны”</a>
+							<ul>
+								<li>13 красавiка 2014</li>
+								<li><a href="#">Iншае</a></li>
+								<li class="views"><i class="icon eye-sm"></i> 23</li>
+							</ul>
+						</div>
+					</div>
+					<div class="search contrl">
+						<form role="form">
+							<div class="search-padding">
+								<input type="search" class="form-control" placeholder="Пачніце ўводзіць запыт..." />
+								<button class="btn btn-search" type="submit"><i class="icon searchicon"></i></button>
+								<a href="javascript:void(0);" class="btn btn-brown" id="btn-search-addt">Паказаць усе опцыі пошуку</a>
+							</div>
+							<div class="search-addt">
+								<div class="divider">
+									<label class="label-checkbox-inline">Катэгорыя навiн</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> Усе
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" id="inlineCheckbox2" value="option2"> Праца
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" id="inlineCheckbox3" value="option3"> Iншае
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" id="inlineCheckbox4" value="option4"> Стыпендыi
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" id="inlineCheckbox5" value="option5"> Трэнiнгi
+									</label>	
+								</div>
+								<div class="divider">
+									<div>
+										<label>Для каго</label>
+										<select class="form-control">
+											<option>Усе жадаючыя, студэнты ВНУ</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+									<div>
+										<label>Мова</label>
+										<select class="form-control">
+											<option>Беларуская, ангельская, польская...</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+									<div>
+										<label>Дзе</label>
+										<select class="form-control">
+											<option>Нямеччына</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+									<div class="search-btns">
+										<button type="submit" class="btn btn-orange">Знайсцi</button>
+										<a href="#" class="search-filter-reset">Скiнуць фiльтр</a>
+									</div>
+								</div>
+								<div class="search-padding">
+									<a href="javascript:void(0);" class="btn btn-brown" id="btn-search-addt-2">Схаваць опцыі пошуку</a>
+								</div>	
+							</div>
+						</form>
+					</div>
+					<div class="banner">
+						<img src="./data/pic-1.jpg" class="pull-left" alt="" />
+						<a class="pull-right brown">
+							<span class="title">Семінар для журналістаў<br> у Берліне</span>
+							<span class="info">Асабiсты вопыт</span>
+							<span class="views"><i class="icon eye"></i> 839</span>
+						</a>
+						<img src="./data/pic-2.jpg" alt="" class="pull-right" />
+						<a class="pull-left orange">
+							<span class="title">IELTS: рухавічок да дзеяння</span>
+							<span class="info">Замежныя мовы</span>
+							<span class="views"><i class="icon eye"></i> 380</span>
+						</a>
+					</div>
+					<div class="programms">
+						<a href="#">
+							<span class="title"><i class="icon dot"></i> ПРАГРАМЫ <i class="icon dot"></i></span>
+							<span class="mappng"></span>
+							<span class="info">Прапануем усім зацікаўленым у пашырэнні сваіх магчымасцяў, навыкаў, далягляду азнаеміцца з замежнымі праграмамі.</span>
+						</a>
+					</div>
+					<div class="new-in-blog">
+						<div class="title">
+							<span>Новае ў блогу</span>
+							<a href="#"><i class="icon comment"></i>374</a>
+						</div>
+						<ul class="info">
+							<li>16 ліпеня 2014</li>
+							<li><span>Кацярына Шмацiна</span></li>
+						</ul>
+						<a href="">Гэтая праграмы прызначана для тых, хто хоць нейкім чынам звязаны з навукай. Гэта могуць быць асобы, якія толькі што скончылі ВНУ...</a>
+						<div class="theme">Тэма: <a href="#">1000 словаў супраць рабства</a></div>
+						<div class="devider"><i class="icon pencil"></i></div>
+					</div>
+					<div class="subscribe contrl">
+						<div>
+							<div class="title">Падпiска</div>
+							<p>Калі вы хочаце быць у курсе апошніх навін і падзей, падпішыцеся на нашу рассылку.</p>
+							<i class="icon coner"></i>
+						</div>
+						<div>
+							<form id="subscribe-form">
+								<label>Катэгорыя навiн</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" id="inlineCheckbox1" value="option1"> Стыпендыi
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" id="inlineCheckbox2" value="option2"> Праца
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" id="inlineCheckbox3" value="option3"> Трэнiнгi
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" id="inlineCheckbox4" value="option4"> Iншае
+								</label>
+								<div class="form-group">
+									<input type="email" class="form-control" id="subscribe-form-email" placeholder="Ваш e-mail">
+								</div>
+								<button type="submit" class="btn btn-orange">Падпiсацца на навiны</button>
+							</form>
+							<a href="#">Хачу адпicацца</a>
+						</div>
+					</div>
+					<div class="socialw">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="active"><a href="#fb" role="tab" data-toggle="tab"><i class="icon wfb"></i><span class="text-hide">Facebook</span></a></li>
+							<li><a href="#vk" role="tab" data-toggle="tab"><i class="icon wvk"></i><span class="text-hide">Vkontakte</span></a></li>
+							<li><a href="#tw" role="tab" data-toggle="tab"><i class="icon wtw"></i><span class="text-hide">Twitter</span></a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="fb">
+								<img src="./data/facebook.png" alt="" />
+							</div>
+							<div class="tab-pane" id="vk">...</div>
+							<div class="tab-pane" id="tw">...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="footer">
+			<div class="container">
+				<div class="up-arrow"><a href="javascript:void(0);" class="icon up-arr"></a></div>
+				<div class="filin"><i class="icon fil"></i></div>
+				<div class="left">
+					<p>© 2004 – 2014 Adukacyja.info Пры выкарыстаннi iнфармацыi з сайта, спасылка на рэсурс абавязкова.</p>
+					<p>E-mail: <a href="mailto:info@adukacyja.info">info@adukacyja.info</a></p>
+					<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="Выкарыстоўванне матэрыялаў сайта - на умовах публічнай ліцэнзіі Creative Commons Attribution-ShareAlike (Атрыбуцыя - На тых жа ўмовах) 4.0 Міжнародная, з пазначэннем імя аўтара і спасылкі на сайт Adukacyja.info" /></a></p>
+				</div>
+				<div class="right">
+					<a href="http://rdesigner.ru/">Дызайн і распрацоўка сайта</a>
+					<a href="http://rdesigner.ru/"><i class="rdesigner"></i></a>
+					<a href="">Хостынг прадастаўлены Hoster.by</a>
+				</div>
+				<div class="center">
+					<ul class="nav footer-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">НАВIНЫ <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Стыпендыi</a></li>
+								<li><a href="#">Трэнiнгi</a></li>
+								<li><a href="#">Iншае</a></li>
+								<li><a href="#">Праца</a></li>
+							</ul>
+						</li>
+						<li><a href="#">ПРАГРАМЫ</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">АСАБIСТЫ ДОСВЕД <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Выпускнiкi</a></li>
+								<li><a href="#">Эксперты</a></li>
+								<li><a href="#">Блог</a></li>
+							</ul>
+						</li>
+						<li><a href="#">ЗАМЕЖНЫЯ МОВЫ</a></li>
+						<li><a href="#">ПРАЦА</a></li>
+						<li><a href="#">ПАРАДЫ</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">ПРА НАС <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Галерэя</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

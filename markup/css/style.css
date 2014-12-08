@@ -1,0 +1,324 @@
+@import url("default.css");
+@import url("main.css");
+@import url("320.css");
+@import url("480.css");
+@import url("768.css");
+@import url("992.css");
+
+
+/** /!!! core css Should not edit !!!/**/
+
+.lSSlideOuter {
+overflow: hidden;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.lightSlider:before, .lightSlider:after {
+content: " ";
+display: table;
+}
+.lightSlider {
+overflow: hidden;
+}
+.lSSlideWrapper {
+max-width: 100%;
+overflow: hidden;
+position: relative;
+}
+.lSSlideWrapper > .lightSlider:after {
+clear: both;
+}
+.lSSlideWrapper .lSSlide {
+-webkit-transform: translate(0px, 0px);
+-ms-transform: translate(0px, 0px);
+transform: translate(0px, 0px);
+-webkit-transition: all 1s;
+-webkit-transition-property: -webkit-transform,height;
+-moz-transition-property: -moz-transform,height;
+transition-property: transform,height;
+-webkit-transition-duration: inherit;
+transition-duration: inherit;
+-webkit-transition-timing-function: inherit;
+transition-timing-function: inherit;
+}
+.lSSlideWrapper .lSFade {
+position: relative;
+}
+.lSSlideWrapper .lSFade > * {
+position: absolute !important;
+top: 0;
+left: 0;
+z-index: 9;
+margin-right: 0;
+width: 100%;
+}
+.lSSlideWrapper.usingCss .lSFade > * {
+opacity: 0;
+-webkit-transition-delay: 0s;
+transition-delay: 0s;
+-webkit-transition-duration: inherit;
+transition-duration: inherit;
+-webkit-transition-property: opacity;
+transition-property: opacity;
+-webkit-transition-timing-function: inherit;
+transition-timing-function: inherit;
+}
+.lSSlideWrapper .lSFade > *.active {
+z-index: 10;
+}
+.lSSlideWrapper.usingCss .lSFade > *.active {
+opacity: 1;
+}
+/** /!!! End of core css Should not edit !!!/**/
+
+/* Pager */
+.lSSlideOuter .lSPager.lSpg {
+margin: 10px 0 0;
+padding: 0;
+text-align: center;
+}
+.lSSlideOuter .lSPager.lSpg > li {
+cursor: pointer;
+display: inline-block;
+padding: 0 5px;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+background-color: #222222;
+border-radius: 30px;
+display: inline-block;
+height: 8px;
+overflow: hidden;
+text-indent: -999em;
+width: 8px;
+position: relative;
+z-index: 99;
+}
+.lSSlideOuter .lSPager.lSpg > li:hover a, 
+.lSSlideOuter .lSPager.lSpg > li.active a {
+background-color: #428bca;
+}
+.lSSlideOuter .media {
+}
+.lSSlideOuter .media.active {
+}
+/* End of pager */
+
+/** Gallery */
+.lSSlideOuter .lSPager.lSGallery {
+list-style: none outside none;
+margin: 15px 0 0 0!important;
+overflow: hidden;
+height: 60px!important;
+transform: translate3d(0px, 0px, 0px);
+-moz-transform: translate3d(0px, 0px, 0px);
+-ms-transform: translate3d(0px, 0px, 0px);
+-webkit-transform: translate3d(0px, 0px, 0px);
+-o-transform: translate3d(0px, 0px, 0px);
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.lSSlideOuter .lSPager.lSGallery li {
+width: 50px!important;
+height: 60px!important;
+position: relative;
+margin-left: 5px;
+padding: 5px 0!important;
+}
+.lSSlideOuter .lSPager.lSGallery li.active a, 
+.lSSlideOuter .lSPager.lSGallery li:hover a {
+display: block;
+position: absolute;
+z-index: 1;
+border: solid 5px #F79840;
+width: 60px;
+height: 60px;
+left: -5px;
+top: 0px;
+}
+.lSSlideOuter .lSPager.lSGallery img {
+display: block;
+height: 50px;
+width: 50px;
+}
+.lSSlideOuter .lSPager.lSGallery:before, .lSSlideOuter .lSPager.lSGallery:after {
+content: " ";
+display: table;
+}
+.lSSlideOuter .lSPager.lSGallery:after {
+clear: both;
+}
+/* End of Gallery*/
+
+/* slider actions */
+.lSAction > a {
+width: 25px;
+display: block;
+top: 50%;
+height: 40px;
+background-image: url('../img/controls.png');
+cursor: pointer;
+position: absolute;
+z-index: 100;
+margin-top: -16px;
+opacity: 0.5;
+-webkit-transition: opacity 0.35s linear 0s;
+transition: opacity 0.35s linear 0s;
+}
+.lSAction > a:hover {
+opacity: 1;
+}
+.lSAction > .lSPrev {
+background-position: 0 0;
+left: 10px;
+}
+.lSAction > .lSPrev:hover {
+background-position: 0 -58px;
+}
+.lSAction > .lSPrev:active {
+background-position: 0 -120px;
+}
+.lSAction > .lSNext {
+background-position: -63px 0;
+right: 10px;
+}
+.lSAction > .lSNext:hover {
+background-position: -63px -58px;
+}
+.lSAction > .lSNext:active {
+background-position: -63px -120px;
+}
+.lSAction > a.disabled {
+pointer-events: none;
+}
+.cS-hidden {
+height: 1px;
+opacity: 0;
+filter: alpha(opacity=0);
+overflow: hidden;
+}
+
+
+/*************** SCROLLBAR BASE CSS ***************/
+ 
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+    max-height: 110px;
+    max-width: 100%;
+}
+ 
+.scroll-wrapper > .scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+ 
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+ 
+.scroll-element {
+    display: none;
+}
+ 
+.scroll-element.scroll-x.scroll-scrollx_visible {
+    display: none;
+}
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+ 
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+ 
+ /*************** SCROLLBAR RAIL ***************/
+ 
+.scrollbar-rail > .scroll-element,
+.scrollbar-rail > .scroll-element div
+{
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+ 
+.scrollbar-rail > .scroll-element {
+    background-color: #ffffff;
+}
+ 
+.scrollbar-rail > .scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+ 
+.scrollbar-rail > .scroll-element.scroll-x {
+    display: none;
+}
+ 
+.scrollbar-rail > .scroll-element.scroll-y {
+    height: 100%;
+    min-height: 100%;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+ 
+.scrollbar-rail > .scroll-element .scroll-bar {
+  background: url(../img/scrollbar.png) no-repeat;
+}
+ 
+/* scrollbar height/width & offset from container borders */
+ 
+.scrollbar-rail > .scroll-content.scroll-scrolly_visible { 
+left: -25px; 
+margin-left: 25px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-bar { 
+left: 0px; 
+height: 28px;
+width: 10px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-element_outer {
+top: 0px;
+width: 10px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-element_size { 
+left: 4px;
+top: 0px;
+width: 1px; 
+}
+ 
+/* update scrollbar offset if both scrolls are visible */
+ 
+.scrollbar-rail > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -25px; }
+.scrollbar-rail > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track { left: -25px; }
+ 
+ /**/
